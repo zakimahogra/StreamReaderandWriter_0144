@@ -23,5 +23,9 @@ int main() {
 	}
 	outfile.close();
 
+	ifstream infile;
+	infile.open(NamaFile + ".txt", ios::in);
+
 	
+
 
